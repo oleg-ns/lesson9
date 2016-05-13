@@ -130,7 +130,7 @@ nav li a:hover {
 		}
 	
 }
-@media screen width: 1024px {
+@media screen and (min-width:1024px) {
 	nav {
 		visibility:visible;
 		display:inline-table;
@@ -139,8 +139,12 @@ nav li a:hover {
 button {
 	color:#333;
 	background-color:#fff;
+	position:fixed;
+	bottom:0;
+	right:0;
+	
 }
-.clearfix:after {
+p:after {
 	content:"";
 	clear:both;
 	width:100%;
